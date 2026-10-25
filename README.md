@@ -1,4 +1,4 @@
-# Activity-Based Learning — Web Development
+# WD-Activity-Based-Learning
 
 This repository contains three HTML and CSS website projects created as part of the Activity-Based Learning work.
 
@@ -89,4 +89,4 @@ These projects demonstrate the use of HTML and CSS to create organized, visually
 
 ---
 **Created by:** Ellil Blessy Johns  
-**Course Area:** Web Development — Activity-Based Learning
+**Course Area:** Web Development-Activity-Based-Learning
