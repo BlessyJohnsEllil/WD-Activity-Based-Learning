@@ -83,29 +83,6 @@ A college festival website presenting event information and participant registra
 3. Open the HTML file in a browser, or use the **Live Server** extension in VS Code if it is installed.
 4. Keep the related CSS files and image assets in their expected locations so the styling and images load correctly.
 
-## Project Structure
-
-The exact filenames and folder layout depend on how the project files have been saved. A typical structure could look like this:
-
-```text
-activity-based-learning/
-├── README.md
-├── digital-library/
-│   ├── index.html
-│   ├── style.css
-│   └── images/
-├── doctor-appointment/
-│   ├── index.html
-│   ├── style.css
-│   └── images/
-└── college-fest/
-    ├── index.html
-    ├── style.css
-    └── images/
-```
-
-This is an example structure; adjust the names to match your actual files.
-
 ## Purpose
 
 These projects demonstrate the use of HTML and CSS to create organized, visually styled interfaces for a digital library, doctor appointment booking, and college festival management.
