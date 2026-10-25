@@ -1,0 +1,286 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f8f7;
+    color: #243b3b;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 8%;
+    background: white;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #168779;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    font-size: 14px;
+    color: #405858;
+}
+
+nav a:hover {
+    color: #168779;
+}
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 65px 10%;
+    background: #e5f3ef;
+}
+
+.hero-text {
+    max-width: 650px;
+}
+
+.tag {
+    color: #168779;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.15;
+    margin: 18px 0;
+}
+
+.hero-text > p:not(.tag) {
+    color: #617575;
+    line-height: 1.8;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 22px;
+    background: #168779;
+    color: white;
+    border-radius: 8px;
+}
+
+.doctors {
+    padding: 65px 8%;
+    text-align: center;
+}
+
+.section-heading h2,
+.booking-info h2 {
+    font-size: 32px;
+    margin: 12px 0;
+}
+
+.section-heading > p:last-child {
+    color: #718080;
+}
+
+.doctor-list {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.doctor-card {
+    flex: 1;
+    max-width: 320px;
+    padding: 20px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px #243b3b0c;
+}
+
+.doctor-card img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.doctor-card h3 {
+    margin-bottom: 8px;
+}
+
+.doctor-card p {
+    font-size: 14px;
+    color: #718080;
+}
+
+.doctor-card .speciality {
+    color: #168779;
+    font-weight: bold;
+}
+
+.timing {
+    padding: 12px 5px;
+    background: #edf7f4;
+    border-radius: 6px;
+}
+
+.card-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 24px;
+    border: 1px solid #168779;
+    color: #168779;
+    border-radius: 7px;
+}
+
+.card-btn:hover {
+    background: #168779;
+    color: white;
+}
+
+.booking {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+    padding: 70px 10%;
+    background: #e5f3ef;
+}
+
+.booking-info {
+    max-width: 330px;
+    padding-top: 35px;
+}
+
+.booking-info > p:not(.tag) {
+    color: #617575;
+    line-height: 1.8;
+}
+
+.info-box {
+    margin-top: 25px;
+    padding: 15px 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.info-box h3 {
+    font-size: 16px;
+    color: #168779;
+}
+
+.info-box p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #718080;
+}
+
+.booking-form {
+    width: 450px;
+    padding: 30px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px #243b3b0c;
+}
+
+.booking-form h2 {
+    margin: 0 0 8px;
+    font-size: 25px;
+}
+
+.form-subtitle {
+    margin-bottom: 25px;
+    color: #718080;
+    font-size: 14px;
+}
+
+.booking-form label {
+    display: block;
+    margin: 16px 0 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d8e3df;
+    border-radius: 7px;
+    background: #fbfdfc;
+    color: #243b3b;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+    outline: 2px solid #8bd0c2;
+    border-color: #168779;
+}
+
+.booking-form textarea {
+    resize: vertical;
+}
+
+.booking-form button {
+    width: 100%;
+    margin-top: 22px;
+    padding: 14px;
+    border: none;
+    border-radius: 7px;
+    background: #168779;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background: #11695f;
+}
+
+.note {
+    text-align: center;
+    font-size: 12px;
+    color: #718080;
+    margin-bottom: 0;
+}
+
+footer {
+    padding: 28px;
+    background: #203b39;
+    color: white;
+    text-align: center;
+}
+
+footer h3 {
+    color: #8bd0c2;
+}
+
+footer p {
+    font-size: 13px;
+    color: #c2d3d0;
+    line-height: 1.7;
+}

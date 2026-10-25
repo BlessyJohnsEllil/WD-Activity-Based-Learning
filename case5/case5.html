@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Reading Room | Digital Library</title>
+    <link rel="stylesheet" href="case5.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="#home" class="logo">✦ The Reading Room</a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#books">Books</a>
+        <a href="#rules">Library Rules</a>
+    </nav>
+</header>
+
+<section class="intro" id="home">
+    <p class="tag">A WORLD OF KNOWLEDGE</p>
+    <h1>Discover your next<br>favourite book.</h1>
+    <p>Explore stories, learn something new, and let every page
+       take you somewhere wonderful.</p>
+    <a href="#books" class="button">Explore Books →</a>
+</section>
+
+<section class="categories" id="categories">
+    <p class="tag">EXPLORE YOUR INTERESTS</p>
+    <h2>Book Categories</h2>
+
+    <div class="category-list">
+        <a href="#fiction">📚 Fiction</a>
+        <a href="#science">🔬 Science</a>
+        <a href="#technology">💻 Technology</a>
+        <a href="#history">🌍 History</a>
+        <a href="#growth">🌱 Self Growth</a>
+    </div>
+</section>
+
+<section class="books" id="books">
+    <p class="tag">THE BOOKSHELF</p>
+    <h2>Popular Books</h2>
+    <p class="subtitle">Find a book that inspires you.</p>
+
+    <div class="filters">
+        <input type="search" placeholder="Search for a book...">
+
+        <select>
+            <option>All Categories</option>
+            <option>Fiction</option>
+            <option>Science</option>
+            <option>Technology</option>
+            <option>Biography</option>
+            <option>Self Growth</option>
+        </select>
+
+        <select>
+            <option>All Books</option>
+            <option>Available</option>
+            <option>Borrowed</option>
+        </select>
+    </div>
+
+    <div class="book-grid">
+
+        <article class="book-card" id="growth">
+            <img src="wings of fire.jpg"
+                 alt="Wings of Fire book cover">
+            <div class="book-info">
+                <p class="book-category">BIOGRAPHY</p>
+                <h3>Wings of Fire</h3>
+                <p class="author">A. P. J. Abdul Kalam</p>
+                <p>An inspiring story of dreams and determination.</p>
+                <span class="available">● Available</span>
+            </div>
+        </article>
+
+        <article class="book-card" id="technology">
+            <img src="introducing python.jpg"
+                 alt="Learning Python book cover">
+            <div class="book-info">
+                <p class="book-category">TECHNOLOGY</p>
+                <h3>Learning Python</h3>
+                <p class="author">Mark Lutz</p>
+                <p>A guide for readers exploring Python programming.</p>
+                <span class="available">● Available</span>
+            </div>
+        </article>
+
+        <article class="book-card" id="fiction">
+            <img src="to kill a mockingbird.jpg"
+                 alt="To Kill a Mockingbird book cover">
+            <div class="book-info">
+                <p class="book-category">FICTION</p>
+                <h3>To Kill a Mockingbird</h3>
+                <p class="author">Harper Lee</p>
+                <p>A classic story of justice, courage and compassion.</p>
+                <span class="borrowed">● Borrowed</span>
+            </div>
+        </article>
+
+        <article class="book-card" id="science">
+            <img src="thinking slow and fast.jpg"
+                 alt="Sapiens book cover">
+            <div class="book-info">
+                <p class="book-category">SCIENCE</p>
+                <h3>Sapiens</h3>
+                <p class="author">Yuval Noah Harari</p>
+                <p>An exploration of human history and civilization.</p>
+                <span class="available">● Available</span>
+            </div>
+        </article>
+
+        <article class="book-card" id="history">
+            <img src="the body keeps the score.jpg"
+                 alt="The Silk Roads book cover">
+            <div class="book-info">
+                <p class="book-category">HISTORY</p>
+                <h3>The Silk Roads</h3>
+                <p class="author">Peter Frankopan</p>
+                <p>Discover the history of the world through trade.</p>
+                <span class="available">● Available</span>
+            </div>
+        </article>
+
+        <article class="book-card">
+            <img src="principles.jpg"
+                 alt="Atomic Habits book cover">
+            <div class="book-info">
+                <p class="book-category">SELF GROWTH</p>
+                <h3>Atomic Habits</h3>
+                <p class="author">James Clear</p>
+                <p>Small habits that can lead to meaningful changes.</p>
+                <span class="borrowed">● Borrowed</span>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<section class="catalog">
+    <p class="tag">LIBRARY COLLECTION</p>
+    <h2>Book Catalog</h2>
+
+    <table>
+        <tr>
+            <th>Book Title</th>
+            <th>Author</th>
+            <th>Category</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Wings of Fire</td>
+            <td>A. P. J. Abdul Kalam</td>
+            <td>Biography</td>
+            <td class="green">Available</td>
+        </tr>
+        <tr>
+            <td>Learning Python</td>
+            <td>Mark Lutz</td>
+            <td>Technology</td>
+            <td class="green">Available</td>
+        </tr>
+        <tr>
+            <td>To Kill a Mockingbird</td>
+            <td>Harper Lee</td>
+            <td>Fiction</td>
+            <td class="red">Borrowed</td>
+        </tr>
+        <tr>
+            <td>Sapiens</td>
+            <td>Yuval Noah Harari</td>
+            <td>Science</td>
+            <td class="green">Available</td>
+        </tr>
+        <tr>
+            <td>The Silk Roads</td>
+            <td>Peter Frankopan</td>
+            <td>History</td>
+            <td class="green">Available</td>
+        </tr>
+        <tr>
+            <td>Atomic Habits</td>
+            <td>James Clear</td>
+            <td>Self Growth</td>
+            <td class="red">Borrowed</td>
+        </tr>
+    </table>
+</section>
+
+<section class="rules" id="rules">
+    <p class="tag">READ WITH CARE</p>
+    <h2>Library Rules</h2>
+
+    <div class="rule-list">
+        <p>✦ Return borrowed books within 14 days.</p>
+        <p>✦ Handle books carefully and keep them clean.</p>
+        <p>✦ Maintain silence in the reading area.</p>
+        <p>✦ Report lost or damaged books to the librarian.</p>
+    </div>
+</section>
+
+<footer>
+    <h3>✦ The Reading Room</h3>
+    <p>A little reading goes a long way.</p>
+    <p>© 2026 The Reading Room | Digital Library</p>
+</footer>
+
+</body>
+</html>
